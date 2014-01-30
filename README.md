@@ -14,6 +14,7 @@ add this to the top of your Gemfile:
 ## Usage
 
 to add another source:
+
     gem sources -a http://username:password@gem.mygemserver.io/
 
 ## Contributing
