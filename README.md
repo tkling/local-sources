@@ -1,24 +1,20 @@
 # Local::Sources
 
-TODO: Write a gem description
-
 ## Installation
 
-Add this line to your application's Gemfile:
+run this command from the terminal:
 
-    gem 'local-sources'
+    gem install local-sources
 
-And then execute:
+add this to the top of your Gemfile:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install local-sources
+    require 'local_sources'
+    LocalSources.source(self)
 
 ## Usage
 
-TODO: Write usage instructions here
+to add another source:
+    gem sources -a http://username:password@gem.mygemserver.io/
 
 ## Contributing
 
