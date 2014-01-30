@@ -6,16 +6,16 @@ run this command from the terminal:
 
     gem install local-sources
 
-add this to the top of your Gemfile:
-
-    require 'local_sources'
-    LocalSources.source(self)
-
 ## Usage
 
 to add another source:
 
     gem sources -a http://username:password@gem.mygemserver.io/
+
+add this to the top of your Gemfile:
+
+    require 'local_sources'
+    LocalSources.source(self)
 
 ## Contributing
 
